@@ -1,0 +1,8 @@
+{
+  "topic": "Zero-Copy Byte Packet Ring Buffer Dispatcher",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-10-05T06:31:47.738075+00:00",
+  "source_file": "main.zig"
+}
