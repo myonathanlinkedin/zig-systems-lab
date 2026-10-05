@@ -2,7 +2,7 @@
 > Explicit memory control, compile-time metaprogramming, and robust low-overhead algorithms. Maintained by [@myonathanlinkedin](https://github.com/myonathanlinkedin).
 
 [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/myonathanlinkedin/zig-systems-lab/actions)
-[![Total Modules](https://img.shields.io/badge/Algorithms-4%20Modules-blue?style=for-the-badge&logo=zig)](https://github.com/myonathanlinkedin/zig-systems-lab)
+[![Total Modules](https://img.shields.io/badge/Algorithms-5%20Modules-blue?style=for-the-badge&logo=zig)](https://github.com/myonathanlinkedin/zig-systems-lab)
 [![Architect](https://img.shields.io/badge/Architect-@myonathanlinkedin-purple?style=for-the-badge&logo=linkedin)](https://github.com/myonathanlinkedin)
 [![Verified](https://img.shields.io/badge/Tests-100%25%20Verified-success?style=for-the-badge)](https://github.com/myonathanlinkedin/zig-systems-lab)
 [![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)](LICENSE)
@@ -17,6 +17,7 @@
 | 2 | **Zero-Copy Byte Packet Ring Buffer Dispatcher** | zig | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261005_063147_zero-copy_byte_packet_ring_buf/main.zig) |
 | 3 | **From: anyone@icloud.com - Spoofing Arbitrary Apple iCloud Identities** | zig | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261005_082516_from__anyone_icloud_com_-_spoo/main.zig) |
 | 4 | **AFORE: Attention-FFN Disaggregation with Overlapped Reconfiguration of Experts** | zig | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261005_121800_afore__attention-ffn_disaggreg/types.zig) |
+| 5 | **A new, bespoke static site generator to replace Jekyll** | zig | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261005_162657_a_new__bespoke_static_site_gen/main.zig) |
 
 ---
 
@@ -45,4 +46,4 @@ zig build test
 
 ---
 
-<sub>⚡ *Automated Sync & Dynamic Verification Engine by [@myonathanlinkedin](https://github.com/myonathanlinkedin) • Last Synced: 2026-10-05 12:18 UTC*</sub>
+<sub>⚡ *Automated Sync & Dynamic Verification Engine by [@myonathanlinkedin](https://github.com/myonathanlinkedin) • Last Synced: 2026-10-05 16:27 UTC*</sub>
