@@ -1,0 +1,11 @@
+{
+  "topic": "AFORE: Attention-FFN Disaggregation with Overlapped Reconfiguration of Experts",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-10-05T12:18:00.814558+00:00",
+  "source_file": "types.zig",
+  "files": [
+    "types.zig"
+  ]
+}
