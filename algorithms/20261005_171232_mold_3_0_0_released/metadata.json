@@ -1,0 +1,12 @@
+{
+  "topic": "Mold 3.0.0 Released",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-10-05T17:12:32.286626+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "core.zig",
+    "main.zig"
+  ]
+}
