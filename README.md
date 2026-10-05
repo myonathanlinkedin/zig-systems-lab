@@ -2,7 +2,7 @@
 > Explicit memory control, compile-time metaprogramming, and robust low-overhead algorithms. Maintained by [@myonathanlinkedin](https://github.com/myonathanlinkedin).
 
 [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/myonathanlinkedin/zig-systems-lab/actions)
-[![Total Modules](https://img.shields.io/badge/Algorithms-7%20Modules-blue?style=for-the-badge&logo=zig)](https://github.com/myonathanlinkedin/zig-systems-lab)
+[![Total Modules](https://img.shields.io/badge/Algorithms-8%20Modules-blue?style=for-the-badge&logo=zig)](https://github.com/myonathanlinkedin/zig-systems-lab)
 [![Architect](https://img.shields.io/badge/Architect-@myonathanlinkedin-purple?style=for-the-badge&logo=linkedin)](https://github.com/myonathanlinkedin)
 [![Verified](https://img.shields.io/badge/Tests-100%25%20Verified-success?style=for-the-badge)](https://github.com/myonathanlinkedin/zig-systems-lab)
 [![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)](LICENSE)
@@ -20,6 +20,7 @@
 | 5 | **A new, bespoke static site generator to replace Jekyll** | zig | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261005_162657_a_new__bespoke_static_site_gen/main.zig) |
 | 6 | **Mold 3.0.0 Released** | zig | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261005_171232_mold_3_0_0_released/main.zig) |
 | 7 | **Async Rust: Where does the scheduler live?** | zig | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261005_183620_async_rust__where_does_the_sch/main.zig) |
+| 8 | **Dostoevsky: Better Space-Time Trade-Offs for LSM-Tree Based Key-Value Stores via Adaptive** | zig | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261005_213239_dostoevsky__better_space-time/main.zig) |
 
 ---
 
@@ -48,4 +49,4 @@ zig build test
 
 ---
 
-<sub>⚡ *Automated Sync & Dynamic Verification Engine by [@myonathanlinkedin](https://github.com/myonathanlinkedin) • Last Synced: 2026-10-05 18:36 UTC*</sub>
+<sub>⚡ *Automated Sync & Dynamic Verification Engine by [@myonathanlinkedin](https://github.com/myonathanlinkedin) • Last Synced: 2026-10-05 21:32 UTC*</sub>
