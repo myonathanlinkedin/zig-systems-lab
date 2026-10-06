@@ -2,7 +2,7 @@
 > Explicit memory control, compile-time metaprogramming, and robust low-overhead algorithms. Maintained by [@myonathanlinkedin](https://github.com/myonathanlinkedin).
 
 [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/myonathanlinkedin/zig-systems-lab/actions)
-[![Total Modules](https://img.shields.io/badge/Algorithms-16%20Modules-blue?style=for-the-badge&logo=zig)](https://github.com/myonathanlinkedin/zig-systems-lab)
+[![Total Modules](https://img.shields.io/badge/Algorithms-17%20Modules-blue?style=for-the-badge&logo=zig)](https://github.com/myonathanlinkedin/zig-systems-lab)
 [![Architect](https://img.shields.io/badge/Architect-@myonathanlinkedin-purple?style=for-the-badge&logo=linkedin)](https://github.com/myonathanlinkedin)
 [![Verified](https://img.shields.io/badge/Tests-100%25%20Verified-success?style=for-the-badge)](https://github.com/myonathanlinkedin/zig-systems-lab)
 [![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)](LICENSE)
@@ -29,6 +29,7 @@
 | 14 | **Approximating Random Walks in $\widetilde O (\log n + \log^2 )$ Space for $$-Conditioned** | zig | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261006_053101_approximating_random_walks_in/core.zig) |
 | 15 | **Thread-Safe Bounded Blocking Queue with Condition Variables** | zig | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261006_054052_thread-safe_bounded_blocking_q/main.zig) |
 | 16 | **Hybrid Classical-Quantum Solutions to Accelerate the Adoption of Quantum Computing** | zig | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261006_090456_hybrid_classical-quantum_solut/EngineState.zig) |
+| 17 | **Huffman Coding Lossless Compression and Decompression** | zig | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261006_101807_huffman_coding_lossless_compre/main.zig) |
 
 ---
 
@@ -57,4 +58,4 @@ zig build test
 
 ---
 
-<sub>⚡ *Automated Sync & Dynamic Verification Engine by [@myonathanlinkedin](https://github.com/myonathanlinkedin) • Last Synced: 2026-10-06 09:05 UTC*</sub>
+<sub>⚡ *Automated Sync & Dynamic Verification Engine by [@myonathanlinkedin](https://github.com/myonathanlinkedin) • Last Synced: 2026-10-06 10:18 UTC*</sub>
