@@ -1,0 +1,13 @@
+{
+  "topic": "Hybrid Classical-Quantum Solutions to Accelerate the Adoption of Quantum Computing",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-10-06T04:30:33.306894+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "types.zig",
+    "engine.zig",
+    "main.zig"
+  ]
+}
