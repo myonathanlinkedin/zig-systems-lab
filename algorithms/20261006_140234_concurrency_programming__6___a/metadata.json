@@ -1,0 +1,13 @@
+{
+  "topic": "Concurrency Programming (6): Atomic Implementation From Runtime to CPU",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-10-06T14:02:34.017731+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "types.zig",
+    "engine.zig",
+    "main.zig"
+  ]
+}
