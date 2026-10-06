@@ -1,6 +1,6 @@
 # Async Concurrency: Where does the scheduler live?
 
-High-performance **Async Concurrency: Where does the scheduler live?** primitive implemented in idiomatic **Zig**. Built from scratch using standard library constructs with zero external dependencies.
+Self-contained **Async Concurrency: Where does the scheduler live?** algorithmic primitive written in idiomatic **Zig**. Built from scratch using standard library constructs with zero external dependencies.
 
 ---
 
@@ -9,16 +9,16 @@ High-performance **Async Concurrency: Where does the scheduler live?** primitive
 This module organizes `Async Concurrency: Where does the scheduler live?` into an isolated, self-contained unit:
 * **Domain Focus**: `Algorithmic Engineering`
 * **Primary Primitives**: `Standard Memory Primitives`
-* **Memory Strategy**: Memory allocations are kept minimal to avoid allocator contention and preserve CPU cache locality.
-* **Correctness Model**: State transitions adhere to strict ordering guarantees with explicit synchronization fences where necessary.
+* **Memory Strategy**: Memory allocations are kept minimal to maintain clear data locality and predictable memory bounds.
+* **Correctness Model**: State transitions follow clear ordering guarantees with explicit validation at each phase.
 
 ### Asymptotic Complexity
 
 | Metric | Bound | Characteristics |
 | :--- | :---: | :--- |
-| **Best Case Time** | `$O(1)$` | Optimized fast-path execution |
-| **Average / Worst Time** | `$O(N)$` | Deterministic upper bound for generalized workloads |
-| **Space Complexity** | `$O(N)$` | Strict bounds without unconstrained heap growth |
+| **Best Case Time** | `O(1)` | Optimized fast-path execution |
+| **Average / Worst Time** | `O(N)` | Deterministic upper bound for generalized workloads |
+| **Space Complexity** | `O(N)` | Strict bounds without unconstrained heap growth |
 
 ---
 
@@ -37,4 +37,4 @@ zig run core.zig
 
 ---
 
-<sub>Crafted with modern Zig standards • Maintained by [@myonathanlinkedin](https://github.com/myonathanlinkedin)</sub>
+<sub>Standard Zig reference implementation • Maintained by [@myonathanlinkedin](https://github.com/myonathanlinkedin)</sub>

@@ -1,5 +1,5 @@
 {
-  "topic": "Approximating Random Walks in $\\widetilde O (\\log n + \\log^2 )$ Space for $$-Conditioned",
+  "topic": "Bounded Space Random Walks and Graph Connectivity Engine",
   "language": "Zig",
   "extension": ".zig",
   "category": "zig",

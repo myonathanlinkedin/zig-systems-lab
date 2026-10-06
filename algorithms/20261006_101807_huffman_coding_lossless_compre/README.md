@@ -11,8 +11,8 @@ A clean, dependency-free **Zig** reference implementation of **Huffman Coding Lo
 
 ## Performance Characteristics
 
-* **Time**: `$O(N \log N)$` average, with `$O(N \log N)$` best-case response under ideal conditions.
-* **Space**: `$O(N)$` memory usage.
+* **Time**: `O(N log N)` average, with `O(N log N)` best-case response under ideal conditions.
+* **Space**: `O(N)` memory usage.
 
 ## Test Harness
 

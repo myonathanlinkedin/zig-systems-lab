@@ -1,12 +1,12 @@
 # Dostoevsky: Better Space-Time Trade-Offs for LSM-Tree Based Key-Value Stores via Adaptive
 
-A clean, dependency-free **Zig** implementation of **Dostoevsky: Better Space-Time Trade-Offs for LSM-Tree Based Key-Value Stores via Adaptive**, focused on predictable latency, strict memory layout, and deterministic execution.
+A clean, dependency-free **Zig** reference implementation of **Dostoevsky: Better Space-Time Trade-Offs for LSM-Tree Based Key-Value Stores via Adaptive**, focused on core algorithmic mechanics, clear memory layout, and test verification.
 
 ### Core Highlights
 * **Language & Standard**: Modern `Zig` standard library conventions.
 * **Architecture Pattern**: Designed for `Balanced Hierarchical Indexing` using `Node Pointers & Self-Balancing Trees`.
-* **Runtime Overhead**: Contiguous memory layouts are favored over scattered heap allocations for optimal traversal speed.
-* **Concurrency & Safety**: State consistency is verified after every mutation through formal invariant validation.
+* **Runtime Overhead**: Contiguous memory layouts and standard collections are favored for straightforward iteration and access.
+* **Concurrency & Safety**: State consistency is verified after mutations through assertion test coverage.
 
 ---
 
@@ -14,9 +14,9 @@ A clean, dependency-free **Zig** implementation of **Dostoevsky: Better Space-Ti
 
 | Dimension | Bound |
 | :--- | :--- |
-| **Time (Best Case)** | `$O(1)$` |
-| **Time (Worst Case)** | `$O(\log N)$` |
-| **Auxiliary Space** | `$O(N)$` |
+| **Time (Best Case)** | `O(1)` |
+| **Time (Worst Case)** | `O(log N)` |
+| **Auxiliary Space** | `O(N)` |
 
 ---
 

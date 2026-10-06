@@ -1,6 +1,6 @@
 # We ported the original Doom to SQL
 
-High-performance **We ported the original Doom to SQL** primitive implemented in idiomatic **Zig**. Built from scratch using standard library constructs with zero external dependencies.
+Self-contained **We ported the original Doom to SQL** algorithmic primitive written in idiomatic **Zig**. Built from scratch using standard library constructs with zero external dependencies.
 
 ---
 
@@ -9,16 +9,16 @@ High-performance **We ported the original Doom to SQL** primitive implemented in
 This module organizes `We ported the original Doom to SQL` into an isolated, self-contained unit:
 * **Domain Focus**: `Algorithmic Engineering`
 * **Primary Primitives**: `Standard Memory Primitives`
-* **Memory Strategy**: Zero superfluous dynamic allocations; structured for mechanical sympathy with the host runtime.
-* **Correctness Model**: Deterministic behavior across all execution cycles, resilient against asynchronous edge conditions.
+* **Memory Strategy**: Zero external heap dependencies; designed as a pure in-memory algorithmic component.
+* **Correctness Model**: Execution behavior is validated against nominal workflows and boundary edge cases.
 
 ### Asymptotic Complexity
 
 | Metric | Bound | Characteristics |
 | :--- | :---: | :--- |
-| **Best Case Time** | `$O(1)$` | Optimized fast-path execution |
-| **Average / Worst Time** | `$O(N)$` | Deterministic upper bound for generalized workloads |
-| **Space Complexity** | `$O(N)$` | Strict bounds without unconstrained heap growth |
+| **Best Case Time** | `O(1)` | Optimized fast-path execution |
+| **Average / Worst Time** | `O(N)` | Deterministic upper bound for generalized workloads |
+| **Space Complexity** | `O(N)` | Strict bounds without unconstrained heap growth |
 
 ---
 
@@ -37,4 +37,4 @@ zig run main.zig
 
 ---
 
-*Authored & verified by [@myonathanlinkedin](https://github.com/myonathanlinkedin) • Systems Engineering Portfolio*
+*Reference implementation verified by [@myonathanlinkedin](https://github.com/myonathanlinkedin)*
