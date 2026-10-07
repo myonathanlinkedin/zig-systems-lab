@@ -1,0 +1,12 @@
+{
+  "topic": "rat s minimal register allocator",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-10-07T20:06:08.234218+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "core.zig",
+    "main.zig"
+  ]
+}
