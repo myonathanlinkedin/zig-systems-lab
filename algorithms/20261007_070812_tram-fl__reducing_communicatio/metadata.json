@@ -1,0 +1,12 @@
+{
+  "topic": "Tram-FL: Reducing Communication and Computation Costs through Sequential Model",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-10-07T07:08:12.888767+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "core.zig",
+    "main.zig"
+  ]
+}
