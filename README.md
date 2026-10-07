@@ -2,7 +2,7 @@
 > Explicit memory control, compile-time metaprogramming, and robust low-overhead algorithms. Maintained by [@myonathanlinkedin](https://github.com/myonathanlinkedin).
 
 [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/myonathanlinkedin/zig-systems-lab/actions)
-[![Total Modules](https://img.shields.io/badge/Algorithms-26%20Modules-blue?style=for-the-badge&logo=zig)](https://github.com/myonathanlinkedin/zig-systems-lab)
+[![Total Modules](https://img.shields.io/badge/Algorithms-27%20Modules-blue?style=for-the-badge&logo=zig)](https://github.com/myonathanlinkedin/zig-systems-lab)
 [![Architect](https://img.shields.io/badge/Architect-@myonathanlinkedin-purple?style=for-the-badge&logo=linkedin)](https://github.com/myonathanlinkedin)
 [![Verified](https://img.shields.io/badge/Tests-100%25%20Verified-success?style=for-the-badge)](https://github.com/myonathanlinkedin/zig-systems-lab)
 [![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)](LICENSE)
@@ -39,6 +39,7 @@
 | 24 | **Tram-FL: Reducing Communication and Computation Costs through Sequential Model** | zig | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261007_070812_tram-fl__reducing_communicatio/main.zig) |
 | 25 | **Thread-Safe Bounded Blocking Queue with Condition Variables** | zig | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261007_104115_thread-safe_bounded_blocking_q/core.zig) |
 | 26 | **The Data Race That Wasn t a Bug (and the One That Was)** | zig | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261007_130920_the_data_race_that_wasn_t_a_bu/core.zig) |
+| 27 | **Temporal - Temporal service** | zig | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261007_140216_temporal_-_temporal_service/engine.zig) |
 
 ---
 
@@ -67,4 +68,4 @@ zig build test
 
 ---
 
-<sub>⚡ *Automated Sync & Dynamic Verification Engine by [@myonathanlinkedin](https://github.com/myonathanlinkedin) • Last Synced: 2026-10-07 13:09 UTC*</sub>
+<sub>⚡ *Automated Sync & Dynamic Verification Engine by [@myonathanlinkedin](https://github.com/myonathanlinkedin) • Last Synced: 2026-10-07 14:02 UTC*</sub>
