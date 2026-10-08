@@ -1,0 +1,12 @@
+{
+  "topic": "Ep0: Starting Nusku, a continuous profiler for Linux, built in Zig, no shortcuts",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-10-08T16:02:25.984252+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "core.zig",
+    "main.zig"
+  ]
+}
