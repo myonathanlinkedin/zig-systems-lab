@@ -2,7 +2,7 @@
 > Explicit memory control, compile-time metaprogramming, and robust low-overhead algorithms. Maintained by [@myonathanlinkedin](https://github.com/myonathanlinkedin).
 
 [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/myonathanlinkedin/zig-systems-lab/actions)
-[![Total Modules](https://img.shields.io/badge/Algorithms-24%20Modules-blue?style=for-the-badge&logo=zig)](https://github.com/myonathanlinkedin/zig-systems-lab)
+[![Total Modules](https://img.shields.io/badge/Algorithms-25%20Modules-blue?style=for-the-badge&logo=zig)](https://github.com/myonathanlinkedin/zig-systems-lab)
 [![Architect](https://img.shields.io/badge/Architect-@myonathanlinkedin-purple?style=for-the-badge&logo=linkedin)](https://github.com/myonathanlinkedin)
 [![Verified](https://img.shields.io/badge/Tests-100%25%20Verified-success?style=for-the-badge)](https://github.com/myonathanlinkedin/zig-systems-lab)
 [![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)](LICENSE)
@@ -37,6 +37,7 @@
 | 22 | **rat s minimal register allocator** | zig | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261007_200608_rat_s_minimal_register_allocat/main.zig) |
 | 23 | **Sentinel: The Command Plane** | zig | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261008_043555_sentinel__the_command_plane/main.zig) |
 | 24 | **Symmetric Submodular Minimization from Comparisons** | zig | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261008_085828_symmetric_submodular_minimizat/engine.zig) |
+| 25 | **Scalardb - Universal HTAP Engine** | zig | $O(\log N)$ | $O(N)$ | ✅ Verified | [View Module ↗](algorithms/20261008_104256_scalardb_-_universal_htap_engi/main.zig) |
 
 ---
 
@@ -65,4 +66,4 @@ zig build test
 
 ---
 
-<sub>⚡ *Automated Sync & Dynamic Verification Engine by [@myonathanlinkedin](https://github.com/myonathanlinkedin) • Last Synced: 2026-10-08 08:58 UTC*</sub>
+<sub>⚡ *Automated Sync & Dynamic Verification Engine by [@myonathanlinkedin](https://github.com/myonathanlinkedin) • Last Synced: 2026-10-08 10:43 UTC*</sub>
