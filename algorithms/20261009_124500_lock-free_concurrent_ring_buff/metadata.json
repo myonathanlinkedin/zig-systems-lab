@@ -1,0 +1,12 @@
+{
+  "topic": "Lock-Free Concurrent Ring Buffer Data Structure",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-10-09T12:45:00.106086+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "core.zig",
+    "main.zig"
+  ]
+}
