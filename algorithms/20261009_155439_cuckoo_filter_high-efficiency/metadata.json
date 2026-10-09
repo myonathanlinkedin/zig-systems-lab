@@ -1,0 +1,12 @@
+{
+  "topic": "Cuckoo Filter High-Efficiency Deletion Structure",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-10-09T15:54:39.410613+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "core.zig",
+    "main.zig"
+  ]
+}
