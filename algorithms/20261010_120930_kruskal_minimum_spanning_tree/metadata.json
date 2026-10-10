@@ -1,0 +1,13 @@
+{
+  "topic": "Kruskal Minimum Spanning Tree with Disjoint-Set Union",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-10-10T12:09:30.149693+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "types.zig",
+    "engine.zig",
+    "main.zig"
+  ]
+}
