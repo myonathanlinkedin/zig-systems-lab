@@ -1,77 +1,67 @@
 const std = @import("std");
 const core = @import("core.zig");
 
+const Queue = core.BoundedBlockingQueue(usize);
+
+fn producerFn(start: usize, count: usize, q: *Queue) void {
+    var i: usize = 0;
+    while (i < count) : (i += 1) {
+        q.enqueue(start + i);
+    }
+}
+
+fn consumerFn(count: usize, q: *Queue, seen: []bool, seen_lock: *core.SRWLOCK, consumed: *std.atomic.Value(usize)) void {
+    var i: usize = 0;
+    while (i < count) : (i += 1) {
+        const val = q.dequeue();
+        core.AcquireSRWLockExclusive(seen_lock);
+        std.debug.assert(!seen[val]);
+        seen[val] = true;
+        core.ReleaseSRWLockExclusive(seen_lock);
+        _ = consumed.fetchAdd(1, .monotonic);
+    }
+}
+
 pub fn main() !void {
     const allocator = std.heap.page_allocator;
-    const Item = usize;
-    const capacity = 8;
-    var queue = try core.BoundedBlockingQueue.init(Item, allocator, capacity);
+    const capacity = 16;
+    var queue = try Queue.init(allocator, capacity);
     defer queue.deinit();
 
-    const total_items = 10_000;
-    const producer_count = 4;
-    const consumer_count = 4;
+    const total_items: usize = 10_000;
+    const producer_count: usize = 4;
+    const consumer_count: usize = 4;
     const items_per_producer = total_items / producer_count;
+    const items_per_consumer = total_items / consumer_count;
 
-    // Atomic counters for verification
-    var produced = std.atomic.AtomicUsize.init(0);
-    var consumed = std.atomic.AtomicUsize.init(0);
+    var consumed = std.atomic.Value(usize).init(0);
 
-    // Simple bitmap to ensure each value appears exactly once
-    var seen = try allocator.alloc(bool, total_items);
+    const seen = try allocator.alloc(bool, total_items);
     defer allocator.free(seen);
     for (seen) |*b| b.* = false;
 
-    // Spawn producers
+    var seen_lock: core.SRWLOCK = null;
+    core.InitializeSRWLock(&seen_lock);
+
     var producers: [producer_count]std.Thread = undefined;
-    for (producers) |*thr, idx| {
+    for (0..producer_count) |idx| {
         const start = idx * items_per_producer;
-        thr.* = try std.Thread.spawn(.{}, struct {
-            fn run(start: usize, count: usize, q: *core.BoundedBlockingQueue) void {
-                var i: usize = 0;
-                while (i < count) : (i += 1) {
-                    q.enqueue(start + i);
-                }
-            }
-        }.run, .{ start, items_per_producer, &queue });
+        producers[idx] = try std.Thread.spawn(.{}, producerFn, .{ start, items_per_producer, &queue });
     }
 
-    // Spawn consumers
     var consumers: [consumer_count]std.Thread = undefined;
-    for (consumers) |*thr| {
-        thr.* = try std.Thread.spawn(.{}, struct {
-            fn run(q: *core.BoundedBlockingQueue, seen: []bool, prod: *std.atomic.AtomicUsize, cons: *std.atomic.AtomicUsize) void {
-                while (true) {
-                    const val = q.dequeue();
-                    // Record the value
-                    std.debug.assert(!seen[val]); // each value must be unique
-                    seen[val] = true;
-                    cons.fetchAdd(1, .Monotonic);
-                    // Exit condition
-                    if (cons.load(.Monotonic) >= prod.load(.Monotonic)) {
-                        // All produced items have been consumed
-                        break;
-                    }
-                }
-            }
-        }.run, .{ &queue, seen, &produced, &consumed });
+    for (0..consumer_count) |idx| {
+        consumers[idx] = try std.Thread.spawn(.{}, consumerFn, .{ items_per_consumer, &queue, seen, &seen_lock, &consumed });
     }
 
-    // Wait for producers to finish
-    for (producers) |thr| {
-        thr.wait();
-        // Update produced counter
-        produced.fetchAdd(items_per_producer, .Monotonic);
+    for (0..producer_count) |idx| {
+        producers[idx].join();
     }
 
-    // Wait for consumers to finish
-    for (consumers) |thr| {
-        thr.wait();
+    for (0..consumer_count) |idx| {
+        consumers[idx].join();
     }
 
-    // Final assertions
-    std.debug.assert(produced.load(.Monotonic) == total_items);
-    std.debug.assert(consumed.load(.Monotonic) == total_items);
-    // Verify every index was seen
+    std.debug.assert(consumed.load(.monotonic) == total_items);
     for (seen) |b| std.debug.assert(b);
 }
