@@ -1,0 +1,12 @@
+{
+  "topic": "Constructive Arboricity in Almost-Linear Time for Dense Graphs",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-10-13T19:01:29.284797+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "core.zig",
+    "main.zig"
+  ]
+}
