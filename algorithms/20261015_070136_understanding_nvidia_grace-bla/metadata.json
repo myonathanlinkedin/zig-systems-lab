@@ -1,0 +1,12 @@
+{
+  "topic": "Understanding NVIDIA Grace-Blackwell Unified Memory Through Placement-Controlled",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-10-15T07:01:36.859723+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "core.zig",
+    "main.zig"
+  ]
+}

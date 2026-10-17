@@ -1,0 +1,12 @@
+{
+  "topic": "CYK Parsing Algorithm for Context-Free Grammars",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-10-10T18:30:43.962270+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "core.zig",
+    "main.zig"
+  ]
+}

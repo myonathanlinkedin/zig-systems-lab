@@ -1,0 +1,13 @@
+{
+  "topic": "The DelightQL Query Language",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-10-14T19:01:12.132636+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "types.zig",
+    "engine.zig",
+    "main.zig"
+  ]
+}
