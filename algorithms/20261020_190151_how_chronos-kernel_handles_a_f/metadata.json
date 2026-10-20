@@ -1,0 +1,12 @@
+{
+  "topic": "How Chronos-Kernel Handles a fork When the Parent Has Gigabytes of Memory",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-10-20T19:01:51.997323+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "core.zig",
+    "main.zig"
+  ]
+}
