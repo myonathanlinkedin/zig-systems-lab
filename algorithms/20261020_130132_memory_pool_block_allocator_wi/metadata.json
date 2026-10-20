@@ -1,0 +1,13 @@
+{
+  "topic": "Memory Pool Block Allocator with Free List",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-10-20T13:01:32.746366+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "types.zig",
+    "engine.zig",
+    "main.zig"
+  ]
+}
