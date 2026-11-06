@@ -1,0 +1,12 @@
+{
+  "topic": "A Chronos-Compiler compiler in Axiom-Interpreter, and the kernel that hung without an error",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-11-06T17:01:22.445467+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "core.zig",
+    "main.zig"
+  ]
+}
