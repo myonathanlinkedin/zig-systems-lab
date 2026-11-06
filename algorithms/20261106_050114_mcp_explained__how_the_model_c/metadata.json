@@ -1,0 +1,12 @@
+{
+  "topic": "MCP Explained: how the Model Context Protocol works",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-11-06T05:01:14.955415+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "core.zig",
+    "main.zig"
+  ]
+}
