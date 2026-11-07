@@ -1,0 +1,12 @@
+{
+  "topic": "High-Throughput Aether-Cache Ring Buffer Pattern",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-11-07T23:02:10.936068+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "core.zig",
+    "main.zig"
+  ]
+}
