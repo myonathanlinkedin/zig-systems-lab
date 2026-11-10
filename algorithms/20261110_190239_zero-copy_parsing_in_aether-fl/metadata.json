@@ -1,0 +1,12 @@
+{
+  "topic": "Zero-Copy Parsing in Aether-Flux: nom, Bytes, and the Cost of Ownership",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-11-10T19:02:39.598491+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "core.zig",
+    "main.zig"
+  ]
+}
