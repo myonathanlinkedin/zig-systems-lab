@@ -1,0 +1,12 @@
+{
+  "topic": "Greg Kurtzer s Ginux is now a userspace kernel",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-11-11T09:02:53.338956+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "core.zig",
+    "main.zig"
+  ]
+}
