@@ -1,0 +1,12 @@
+{
+  "topic": "Bytecode Virtual Machine with Stack Evaluation Engine",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-11-15T01:02:36.768416+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "core.zig",
+    "main.zig"
+  ]
+}
