@@ -1,0 +1,13 @@
+{
+  "topic": "Custom Buddy Memory Allocation System",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-11-17T15:03:06.601196+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "types.zig",
+    "engine.zig",
+    "main.zig"
+  ]
+}
