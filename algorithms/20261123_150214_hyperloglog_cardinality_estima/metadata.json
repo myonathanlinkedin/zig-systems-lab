@@ -1,0 +1,12 @@
+{
+  "topic": "HyperLogLog Cardinality Estimation Algorithm",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-11-23T15:02:14.323245+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "core.zig",
+    "main.zig"
+  ]
+}
