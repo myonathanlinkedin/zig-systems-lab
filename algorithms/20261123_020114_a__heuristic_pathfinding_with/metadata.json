@@ -1,0 +1,13 @@
+{
+  "topic": "A* Heuristic Pathfinding with Dynamic Obstacle Cost",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-11-23T02:01:14.278280+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "types.zig",
+    "engine.zig",
+    "main.zig"
+  ]
+}
