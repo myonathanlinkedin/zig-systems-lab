@@ -1,0 +1,12 @@
+{
+  "topic": "Arctic: A Practical Lock-Free Adaptive Radix Tree",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-11-24T13:02:45.167601+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "core.zig",
+    "main.zig"
+  ]
+}
