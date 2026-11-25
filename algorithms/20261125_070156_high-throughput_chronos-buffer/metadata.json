@@ -1,0 +1,12 @@
+{
+  "topic": "High-Throughput Chronos-Buffer Ring Buffer Pattern",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-11-25T07:01:56.617790+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "core.zig",
+    "main.zig"
+  ]
+}
