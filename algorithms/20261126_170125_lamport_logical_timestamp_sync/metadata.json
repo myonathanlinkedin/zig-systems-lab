@@ -1,0 +1,13 @@
+{
+  "topic": "Lamport Logical Timestamp Synchronization Engine",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-11-26T17:01:25.510192+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "types.zig",
+    "engine.zig",
+    "main.zig"
+  ]
+}
