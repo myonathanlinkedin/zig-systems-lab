@@ -1,0 +1,13 @@
+{
+  "topic": "The State of Allocators in 2026 - Finally Stabilised",
+  "language": "Zig",
+  "extension": ".zig",
+  "category": "zig",
+  "timestamp_utc": "2026-11-28T07:02:12.457072+00:00",
+  "source_file": "main.zig",
+  "files": [
+    "types.zig",
+    "engine.zig",
+    "main.zig"
+  ]
+}
